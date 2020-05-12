@@ -301,24 +301,20 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAAPg==</data>
+				<data>AAClPg==</data>
 				<key>device-id</key>
-				<data>kj4AAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
+				<data>pT4AAA==</data>
 				<key>framebuffer-con0-alldata</key>
 				<data>AAAIAAIAAACYAAAA</data>
 				<key>framebuffer-con0-enable</key>
 				<integer>1</integer>
 				<key>framebuffer-con1-alldata</key>
-				<data>AQEJAAAIAADHAQAA</data>
+				<data>AQEJAAAIAACHAQAA</data>
 				<key>framebuffer-con1-enable</key>
 				<integer>1</integer>
 				<key>framebuffer-con2-alldata</key>
-				<data>AgYKAAAEAADHAQAA</data>
+				<data>AgYKAAAEAACHAQAA</data>
 				<key>framebuffer-con2-enable</key>
 				<integer>1</integer>
 				<key>framebuffer-fbmem</key>
@@ -328,7 +324,7 @@
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAYA==</data>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -946,6 +942,34 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>ResetSystem</string>
+				<key>Path</key>
+				<string>ResetSystem.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>RtcRw</string>
+				<key>Path</key>
+				<string>RtcRw.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
 				<string>Memory testing utility</string>
 				<key>Enabled</key>
 				<false/>
@@ -1202,7 +1226,6 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>NvmExpressDxe.efi</string>
-			<string>VirtualSmc.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
